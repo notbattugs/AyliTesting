@@ -1,0 +1,112 @@
+.catoContainer{
+    background-color: rgb(214, 210, 210);
+}
+
+.logo{
+    background-image: url("https://cdn.dribbble.com/users/4662105/screenshots/14455550/media/0e7c0c312b23d147cb0b465f4bd28c52.jpg?compress=1&resize=400x300&vertical=top");
+   width: 40px;
+   height: 40px;
+}
+
+.butsah{
+    color: blue;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+.tuhlaggazar{
+    color: blue;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.bodyCato{
+   display: flex;
+}
+
+.main-img-cato{
+    background-image: url("https://vastphotos.com/files/uploads/photos/10994/peaceful-nature-photo-l.jpg?v=20220712073521");
+    width: 33vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main-img-cato-text{
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.cato-info-main{
+    margin: 2%;
+}
+
+
+.info-img{
+    background-image: url("https://images.pexels.com/photos/1062249/pexels-photo-1062249.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1062249.jpg&fm=jpg");
+    width: 26vw;
+    height: 25vh;
+    
+}
+
+.info-info{
+   border: 1px solid white;
+   background-color: whitesmoke;
+   
+}
+
+
+
+.star-online{
+    display: flex;
+    gap: 200px;
+    
+}
+
+.star{
+    margin-left: 5%;
+}
+
+.online{
+    color: green;
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.name-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin-left: 5%;
+}
+.sale-price{
+     text-decoration: line-through;
+     color: black;
+    font-size: small;
+}
+.real-price{
+    color: red;
+}
+.price-main{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5%;
+}
+

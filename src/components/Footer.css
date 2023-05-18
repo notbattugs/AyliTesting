@@ -1,0 +1,758 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5em;
+}
+
+/* header type #1 */
+.headerContainer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 1s;
+}
+.headerTypeOne {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+.signIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 5%;
+}
+.gyGap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-left: 5%;
+}
+.jordanLogo {
+  width: 31px;
+  height: 25px;
+}
+.converseLogo {
+  width: 42px;
+  height: 24px;
+}
+.nikeJijigSaaral {
+  font-size: 13px;
+  cursor: pointer;
+}
+.inputZai {
+  padding: 10px;
+}
+.birthdayStyle {
+  font-size: 18px !important;
+}
+
+/* header type #2 */
+.headerTypeTwo {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+.nikeLogoOG {
+  width: 62px;
+  height: 25px;
+}
+.nikeNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.searchVerOne {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.nikeNavTexts {
+  font-size: 17px;
+  cursor: pointer;
+}
+.nikeBagAndFav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.nikeBagAndFavIcon {
+  width: 24px;
+  cursor: pointer;
+}
+#nikeSearchInput {
+  font-size: 16px;
+  outline: none;
+  border: 0;
+  background-color: #f5f5f5;
+}
+.nikeSearch {
+  background-color: #f5f5f5;
+  padding: 7px 8px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+}
+.searchStyle {
+  width: 24px;
+  cursor: pointer;
+}
+.cancel {
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+.cancel:hover {
+  color: rgb(143, 142, 142);
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+#nikeSearchInputTwo {
+  font-size: 16px;
+  outline: none;
+  border: 0;
+  background-color: #f5f5f5;
+  width: 30vw;
+}
+.searchedFull {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searched {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.taarsanUmnuud {
+  width: 80vw;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+/* header type #3 */
+.headerTypeThree {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.bannerOne {
+  animation: bannerOne 8s infinite alternate;
+}
+.bannerTwo {
+  animation: bannerTwo 8s infinite alternate;
+}
+.bannerThree {
+  animation: bannerThree 8s infinite alternate;
+}
+@keyframes bannerOne {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bannerTwo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bannerThree {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* footer style */
+.footerContainer {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  gap: 50px;
+  border: 1px solid #000;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.connections {
+  display: flex;
+  gap: 20px;
+}
+.connectionIcons {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  background-color: #3399ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.connectionIconsLoc {
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.connectionIcons:hover {
+  background-color: #ffffff;
+}
+.nikeFooterGanganTsagaan {
+  color: #3399ff;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+.nikeFooterDajguWhite {
+  color: #3399ff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #3399ff;
+}
+.nikeFooterDajguWhite:hover {
+  color: #ffffff;
+}
+.supportsContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.supports {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.topFooter {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.botFooter {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.botSideOne {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.botSideTwo {
+  display: flex;
+  gap: 30px;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* mainTwoPhoto styles */
+.mainTwoContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0;
+  gap: 20px;
+}
+.sectionContainer {
+  width: 80%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.photos {
+  width: 100%;
+  height: 100%;
+}
+.mainTwoType {
+  width: 80%;
+  font-family: 'Roboto ', sans-serif;
+  font-size: x-large;
+}
+.outputContainerOne {
+  display: flex;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: end;
+}
+.outputContainerTwo {
+  display: flex;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: end;
+}
+.nikeMainTypeText {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.nikeMainTitleText {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.buttonContainer {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.linkTo {
+  padding: 15px 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 30px;
+  border: 0;
+  background-color: #ffffff;
+  font-size: 20px;
+  width: fit-content;
+}
+.linkTo:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+/* picOne styles */
+
+.picOneImage {
+  width: 90%;
+}
+.picOneContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.picOneGoShop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.picOneButton {
+  width: fit-content;
+  padding: 10px 20px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #111;
+  color: #f5f5f5;
+  font-size: 16px;
+}
+.picOneSpan {
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.picOneGoShop h1 {
+  font-size: 72px;
+  font-family: 'Tilt Warp', cursive;
+  font-weight: bold;
+  color: #111;
+}
+
+/* threePics styles */
+.threePicsContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.products3pics {
+  width: 80%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: x-large;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.products3picSNUM {
+  width: 80%;
+  font-family: 'Roboto ', sans-serif;
+  font-size: x-large;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.threeProducts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.threeImage {
+  width: 100%;
+}
+.threePicsType {
+  font-size: 20px;
+}
+
+.loginButton {
+  background-color: #111;
+  color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 460px;
+}
+
+/* product styles */
+.productsContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.productsLeftNav {
+  width: 15%;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.productsRightNav {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+.genderEquality {
+  display: flex;
+  align-items: center;
+}
+.genders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  width: 20px;
+}
+.bigContainerOfProducts {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.productContainer {
+  width: 100%;
+}
+.pruducts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.productImage {
+  width: 100%;
+}
+.grayProductText {
+  color: gray;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+.productTitle {
+  color: black;
+  font-size: large;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.infoProduct {
+  display: flex;
+  flex-direction: column;
+}
+.fourPicsContainer {
+  display: grid;
+  width: 100vw;
+  /* height: 700px; */
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+.jurdan {
+  width: 20px;
+}
+.zurag {
+  width: 232px;
+  height: 232px;
+}
+.producs {
+  width: 232px;
+  height: 471px;
+}
+.OneBgTwoSmTWO {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: end;
+}
+.fourImageOne {
+  grid-column: 1/2;
+  grid-row: 1/5;
+  width: 50vw;
+}
+.fourImageTwo {
+  grid-column: 2/2;
+  grid-row: 1/5;
+  width: 50vw;
+}
+.fourImageThree {
+  grid-column: 1/2;
+  grid-row: 5/8;
+  width: 50vw;
+}
+.fourImageFour {
+  grid-column: 2/2;
+  grid-row: 4/8;
+  width: 50vw;
+}
+.womenScrollContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: 40px;
+}
+/* Map css */
+
+.mapContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+.compOfmap {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* productSearch css */
+.productSearchContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.goodText {
+  font-size: medium;
+}
+.godText {
+  font-size: small;
+}
+
+/* profile css */
+.userLinksContainer {
+  width: 100vw;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 50px 0;
+}
+.userLinks {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.userProfile {
+  width: 80vw;
+  display: flex;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+.userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile {
+  padding: 0 0 100px 70px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.userName {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* admin styles */
+
+.adminContainer {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 20px 0;
+}
+.productPost {
+  width: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #111;
+}
+.productOrderApprove {
+  width: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.inpContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0;
+}
+.inputsProdPost {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #111;
+}
+.productPostButton {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #111;
+}
+/* Bag page styles */
+.leftBotBag {
+  width: 96%;
+}
+.leftBotBagBot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.BagFont {
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+/* Help styles */
+
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.bigBox p {
+  cursor: pointer;
+}
+.searchIcon {
+  width: 30px;
+  height: 30px;
+}
+.search {
+  width: 20em;
+  border: 0;
+  padding: 5px;
+}
+.boxContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.elementsContainer {
+  border: 1px solid #111;
+}
+.dundUgNuud {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.hr {
+  width: 80vw;
+}
+.bigBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* justify-items: center; */
+}
+.phoneStyle {
+  width: 80px;
+}
+.doodUgNuud {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.center {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}

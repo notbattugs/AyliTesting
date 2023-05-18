@@ -1,0 +1,337 @@
+.orderMain {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.header-order {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.order-header {
+  background-color: whitesmoke;
+}
+.about {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5%;
+}
+.hotel-title {
+  margin-left: 2.5%;
+}
+.star {
+  margin-left: 2.5%;
+}
+.info-bairshil {
+  margin-left: 2.5%;
+}
+.hotel-name {
+  margin-left: 2.5%;
+}
+.hotel-img {
+  width: 95%;
+  margin-left: 2.5%;
+}
+.butsah {
+  color: blue;
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+  margin: 2%;
+  margin-left: 4%;
+  font-size: large;
+}
+
+.zahialga {
+  height: 4%;
+  width: 10%;
+  border-radius: 40px;
+  border: 1px solid blue;
+  color: blue;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-bairshil {
+  display: flex;
+}
+.map {
+  display: flex;
+  text-decoration: none;
+  margin-left: 1%;
+  width: 100%;
+}
+.bodyMain {
+  margin-top: 3%;
+}
+.hotel-img {
+  width: 65vw;
+  height: 62vh;
+}
+.order-main-img {
+  margin-left: 13%;
+  width: 50vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delgerengui {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 3%;
+  color: blue;
+}
+
+.tohitoi-baidal {
+  font-weight: 900;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.net {
+  font-weight: 900;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.baidag-zuils-border-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utasgui-net {
+  margin-left: 4%;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  color: blue;
+  width: 15%;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+.zochid-buudal-sanal-bolgoh {
+  font-weight: 900;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.baidaig-zuils-egnee-neg {
+  display: flex;
+  gap: 10px;
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: medium;
+}
+.el-1 {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 15%;
+  height: fit-content;
+}
+
+.baidag-zuils-border-img {
+  width: 17vw;
+  height: 18vh;
+  border-radius: 10px;
+}
+.border-main {
+  width: 17vw;
+  height: 13vh;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+}
+.baidag-zuils-border-title {
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.baidag-zuils-border-une {
+  border-top: 1px solid blue;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.baidag-zuils-border-tailbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uruu-zahialah-img {
+  margin-top: 5%;
+  border-radius: 10px;
+  width: 65vw;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-position: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oroo-songolt {
+  margin-top: 1.1%;
+}
+
+/* .uruu-zahialah-icon{
+    background-image: url("");
+    width: 500px;
+    height: 500px;
+} */
+.title-main {
+  display: flex;
+  gap: 10px;
+}
+.title-zahialga {
+  font-weight: 700;
+}
+.zahialga-tailbar {
+  font-size: small;
+  color: rgb(155, 155, 155);
+}
+.zahialga-border-tailbar-main {
+  display: flex;
+  gap: 20px;
+  font-size: small;
+}
+.zahialga-border-tailbar {
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 30px;
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zahialga-border-tailbar-two {
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 30px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.zahialga-border-tailbar-three {
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 30px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+.zahialga-tailbar-main {
+  background-color: white;
+  border: 1px solid whitesmoke;
+  width: 65vw;
+  margin-top: 3%;
+  padding: 3%;
+}
+.border-bottom-main {
+  margin-top: 2%;
+  display: flex;
+  border-top: 1px solid blue;
+}
+
+.border-bottom-sh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-bottom-price {
+  color: blue;
+  display: flex;
+  width: 730px;
+  justify-content: center;
+  align-items: center;
+}
+.oroo-songolt {
+  width: 15%;
+  height: 10%;
+}
+
+/* right date info enn shuuu */
+
+.right-date-container {
+  background-color: rgb(255, 255, 255);
+
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  right: 0;
+  padding-right: 5em;
+}
+/* .date-border{
+
+} */
+
+.date {
+  border: 1px solid black;
+  border-radius: 40px;
+  padding-left: 4%;
+}
+.date-info-title {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  font-weight: 600;
+}
+.date-info {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.zmedeelel {
+  margin-left: 4%;
+  font-size: large;
+}
+.zognoo {
+  font-size: larger;
+}
+.zahialga-main {
+  height: auto;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-order {
+  border-radius: 20px;
+  height: 30px;
+  color: blue;
+  border: 1px solid blue;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.extra-container {
+  height: auto;
+  width: auto;
+  padding: 3%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
