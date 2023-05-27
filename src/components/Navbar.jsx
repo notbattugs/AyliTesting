@@ -1,17 +1,17 @@
-import React, { useContext, useEffect, useState } from "react";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import Logo from "../assets/BetterLogo.png";
+import React, { useContext, useEffect, useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Logo from '../assets/BetterLogo.png';
 
 function Savbar() {
   const [display, setDisplay] = useState(false);
   useEffect(() => {
-    if (JSON.parse(localStorage.getItem("role")) === "owner") {
+    if (JSON.parse(localStorage.getItem('role')) === 'owner') {
       setDisplay(true);
     } else {
       setDisplay(false);
@@ -27,10 +27,10 @@ function Savbar() {
           className="mb-3"
           fixed="top"
         >
-          <Container fluid style={{ marginLeft: "40px" }}>
+          <Container fluid style={{ marginLeft: '40px' }}>
             <Navbar.Brand href="/">
               <img
-                style={{ height: "110px", width: "110px" }}
+                style={{ height: '110px', width: '110px' }}
                 src={Logo}
                 alt=""
               />
@@ -46,12 +46,12 @@ function Savbar() {
                   Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body style={{ width: "auto", height: "500px" }}>
+              <Offcanvas.Body style={{ width: 'auto', height: '500px' }}>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <hr />
                   <Nav.Link href="/">Home</Nav.Link>
                   <hr />
-                  <Nav.Link href={display ? "/ownerprofile" : "/profile"}>
+                  <Nav.Link href={display ? '/ownerprofile' : '/profile'}>
                     Profile
                   </Nav.Link>
                   <hr />
@@ -64,22 +64,6 @@ function Savbar() {
                   <Nav.Link href="/map">Map</Nav.Link>
                   <hr />
                   <Nav.Link href="/orders">Orders</Nav.Link>
-                  <hr />
-                  <NavDropdown
-                    title="Refunfding"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="#action3">
-                      Coming soon
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Koming Suun
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Cumming Soon
-                    </NavDropdown.Item>
-                  </NavDropdown>
                   <hr />
                   <Nav.Link
                     href="/signin"
